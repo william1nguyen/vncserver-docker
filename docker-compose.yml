@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  vnc-server:
+    build:
+      context: .
+    ports:
+      - "5901:5901"
